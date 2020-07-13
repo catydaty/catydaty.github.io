@@ -3,7 +3,7 @@
   box-sizing: border-box;
 }
 body {
-  width: 1400px;
+  width: 1440px;
   margin: auto;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -24,7 +24,7 @@ body {
 .nav a {
   display: flex;
   justify-content: space-evenly;
-  width: 90px;
+  width: 95px;
   text-decoration: none;
   color: #000000;
 }
@@ -53,7 +53,6 @@ body {
   height: 2px;
   background-color: black;
 }
-/* #c2a97d цвет для середины экрана */
 /* основной контент сайта */
 .free-container {
   margin: 0px 50px;
@@ -68,11 +67,11 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
-  margin: 0 20px;
+  margin: 10px 20px;
 }
 .about-free-text {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin-bottom: 10px;
   margin-top: 10px;
 }
@@ -94,6 +93,7 @@ body {
 }
 .blue-price {
   color: blue;
+  margin-left: 4px;
 }
 .price-buy {
   text-decoration: none;
@@ -133,6 +133,7 @@ body {
 }
 .comment-card p {
   font-style: italic;
+  font-size: 14px;
 }
 .other {
   display: flex;
